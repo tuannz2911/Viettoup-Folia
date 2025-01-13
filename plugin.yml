@@ -1,0 +1,17 @@
+name: Thesieutoc
+main: net.thesieutoc.Thesieutoc
+version: '#39'
+website: 'https://thesieutoc.net'
+softdepend:
+  - PlaceholderAPI
+api-version: 1.13
+commands:
+  thesieutoc:
+    description: Lệnh của quản trị viên.
+    usage: /<commands>
+    aliases: [ tst ]
+    permission: thesieutoc.admin
+  napthe:
+    description: Lệnh nạp thẻ.
+    usage: /<commands>
+    aliases: [ donate, ungho ]
